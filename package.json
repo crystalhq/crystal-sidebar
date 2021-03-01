@@ -67,16 +67,6 @@
     "collapsed",
     "rtl"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "eslint --fix"
-    ]
-  },
   "dependencies": {
     "@popperjs/core": "^2.4.0",
     "classnames": "^2.2.6",
