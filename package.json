@@ -1,6 +1,6 @@
 {
   "name": "crystal-sidebar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React crystal sidebar library with dropdown menus and unlimit number of nested submenus",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
