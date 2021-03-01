@@ -1,4 +1,4 @@
-# [React Pro Sidebar](https://www.npmjs.com/package/react-pro-sidebar)
+# [React Pro Sidebar](https://www.npmjs.com/package/crystal-sidebar)
 
 [![npm][version]][npm-url]
 [![License][license]][npm-url]
@@ -6,43 +6,34 @@
 [![Download][download]][npm-url]
 [![Stars][stars]][github-url]
 
-[version]: https://img.shields.io/npm/v/react-pro-sidebar.svg?style=flat-square
-[license]: https://img.shields.io/github/license/azouaoui-med/react-pro-sidebar?style=flat-square
-[peer]: https://img.shields.io/npm/dependency-version/react-pro-sidebar/peer/react?style=flat-square
-[download]: https://img.shields.io/npm/dt/react-pro-sidebar?style=flat-square
-[stars]: https://img.shields.io/github/stars/azouaoui-med/react-pro-sidebar?style=social
-[npm-url]: https://www.npmjs.com/package/react-pro-sidebar
-[github-url]: https://github.com/azouaoui-med/react-pro-sidebar
+[npm-url]: https://www.npmjs.com/package/crystal-sidebar
+[github-url]: https://github.com/crystalhq/crystal-sidebar
 
 Customizable and responsive react sidebar library with dropdown menus and unlimited number of nested submenus
 
-## Demo
-
-[Live preview](https://azouaoui-med.github.io/react-pro-sidebar)
-
 ## Screenshot
 
-![react-pro-sidebar](https://user-images.githubusercontent.com/25878302/83899865-0c5f8e80-a751-11ea-9689-a7fad94843a1.gif)
+![crystal-sidebar](https://user-images.githubusercontent.com/25878302/83899865-0c5f8e80-a751-11ea-9689-a7fad94843a1.gif)
 
 ## Installation
 
 ### yarn
 
 ```bash
-yarn add react-pro-sidebar
+yarn add crystal-sidebar
 ```
 
 ### npm
 
 ```bash
-npm install react-pro-sidebar
+npm install crystal-sidebar
 ```
 
 ## Usage
 
 ```jsx
-import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import 'react-pro-sidebar/dist/css/styles.css';
+import { ProSidebar, Menu, MenuItem, SubMenu } from 'crystal-sidebar';
+import 'crystal-sidebar/dist/css/styles.css';
 
 <ProSidebar>
   <Menu iconShape="square">
@@ -58,7 +49,7 @@ import 'react-pro-sidebar/dist/css/styles.css';
 If you are using sass then you can import the `styles.scss` directly into your scss file
 
 ```scss
-@import '~react-pro-sidebar/dist/scss/styles.scss';
+@import '~crystal-sidebar/dist/scss/styles.scss';
 ```
 
 ## Sidebar Layout
@@ -66,7 +57,7 @@ If you are using sass then you can import the `styles.scss` directly into your s
 You can take advantage of the sidebar layout components to organize the content of your sidebar
 
 ```jsx
-import { ProSidebar, SidebarHeader, SidebarFooter, SidebarContent } from 'react-pro-sidebar';
+import { ProSidebar, SidebarHeader, SidebarFooter, SidebarContent } from 'crystal-sidebar';
 
 <ProSidebar>
   <SidebarHeader>
@@ -99,7 +90,7 @@ Your `custom.scss` file should look something like this
 // Your variable overrides
 $sidebar-bg-color: #1d1d1d;
 
-@import '~react-pro-sidebar/dist/scss/styles.scss';
+@import '~crystal-sidebar/dist/scss/styles.scss';
 ```
 
 Available scss variables
