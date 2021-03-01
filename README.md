@@ -297,4 +297,4 @@ import { Link } from 'react-router-dom';
 
 ## License
 
-MIT © [Mohamed Azouaoui](https://azouaoui.netlify.com)
+MIT © [Emin Ozandac]
