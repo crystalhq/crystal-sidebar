@@ -1,6 +1,6 @@
 {
   "name": "crystal-sidebar",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "React crystal sidebar library with dropdown menus and unlimit number of nested submenus",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -67,6 +67,16 @@
     "collapsed",
     "rtl"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
   "dependencies": {
     "@popperjs/core": "^2.4.0",
     "classnames": "^2.2.6",
