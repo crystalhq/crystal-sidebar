@@ -1,14 +1,14 @@
 {
-  "name": "react-pro-sidebar",
-  "version": "0.6.0",
-  "description": "React sidebar library with dropdown menus and unlimit number of nested submenus",
+  "name": "crystal-sidebar",
+  "version": "0.1.1",
+  "description": "React crystal sidebar library with dropdown menus and unlimit number of nested submenus",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/azouaoui-med/react-pro-sidebar.git",
-  "author": "Mohamed Azouaoui <azouaoui.med@gmail.com>",
+  "repository": "https://github.com/crystalhq/crystal-sidebar",
+  "author": "Emin Ozandac <upandwork17@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
